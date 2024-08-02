@@ -6,7 +6,7 @@ import logo from './Assets/Logo.svg';
 function Header() {
   return (
     <header>
-      <img src={logo} alt="Logo" width={200} height={100}></img>
+      <img src={logo} alt="Logo"></img>
       <Nav />
     </header>
   );
